@@ -1,0 +1,23 @@
+name: app_store
+description: Open app store and application details (Android & iOS only)
+version: 1.0.0
+homepage: https://github.com/g123k/flutter_plugin_app_store
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  url_launcher: ^6.0.20
+  install_referrer: ^1.1.0
+  device_apps: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.4
+
+flutter:
